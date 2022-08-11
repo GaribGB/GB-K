@@ -20,3 +20,17 @@ void FillArrayString(string[] array, int count)
     }
 }
 
+void PrintArray(string[] array, int count)
+{
+    Console.WriteLine("\nСтроки, длина которых меньше либо равна 3 символам: ");
+    for(int i=0 ; i<count ; i++)
+    {
+        Console.Write(array[i]);
+        if(i+1 < count)
+        {
+            Console.Write(", ");
+        }
+    }
+    Console.Write(".\n");
+}
+
