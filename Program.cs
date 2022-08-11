@@ -34,3 +34,19 @@ void PrintArray(string[] array, int count)
     Console.Write(".\n");
 }
 
+
+FillArrayString(arrayString, quantity);
+
+string[] arrayResult = new string [quantity];
+int quantityResult = 0;
+
+for(int i=0 ; i<quantity ; i++)
+{
+    if(arrayString[i].Length<=3)
+    {
+        arrayResult[quantityResult] = arrayString[i];
+        quantityResult++;
+    }
+}
+
+
