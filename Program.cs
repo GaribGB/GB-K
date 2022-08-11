@@ -11,4 +11,12 @@ int Input(string output)
     return Convert.ToInt32(Console.ReadLine());
 }
 
+void FillArrayString(string[] array, int count)
+{
+    for(int i=0 ; i<count ; i++)
+    {
+        Console.Write($"Введите элемент массива №{i+1}: ");
+        array[i] = Convert.ToString(Console.ReadLine());
+    }
+}
 
