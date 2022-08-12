@@ -3,8 +3,6 @@ Console.Clear();
 int quantity = Input("Введите количество элементов в исходном массиве: ");
 string[] arrayString = new string [quantity];
 
-PrintArray(arrayResult, quantityResult);
-
 int Input(string output)
 {
     Console.Write(output);
@@ -50,3 +48,4 @@ for(int i=0 ; i<quantity ; i++)
 }
 
 
+PrintArray(arrayResult, quantityResult);
